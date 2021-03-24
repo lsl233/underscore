@@ -7,8 +7,8 @@
 //     Underscore may be freely distributed under the MIT license.
 
 // Baseline setup.
-export { VERSION } from './_setup.js';
-export { default as restArguments } from './restArguments.js';
+export { VERSION } from './_setup.js';                                                      // ✔
+export { default as restArguments } from './restArguments.js';                              // -
 
 // Object Functions
 // ----------------
@@ -17,27 +17,27 @@ export { default as restArguments } from './restArguments.js';
 
 // A group of functions that check the types of core JavaScript values.
 // These are often informally referred to as the "isType" functions.
-export { default as isObject } from './isObject.js';
-export { default as isNull } from './isNull.js';
-export { default as isUndefined } from './isUndefined.js';
-export { default as isBoolean } from './isBoolean.js';
-export { default as isElement } from './isElement.js';
-export { default as isString } from './isString.js';
-export { default as isNumber } from './isNumber.js';
-export { default as isDate } from './isDate.js';
-export { default as isRegExp } from './isRegExp.js';
-export { default as isError } from './isError.js';
-export { default as isSymbol } from './isSymbol.js';
-export { default as isArrayBuffer } from './isArrayBuffer.js';
+export { default as isObject } from './isObject.js';                                        // ✔
+export { default as isNull } from './isNull.js';                                            // ✔
+export { default as isUndefined } from './isUndefined.js';                                  // ✔
+export { default as isBoolean } from './isBoolean.js';                                      // ✔
+export { default as isElement } from './isElement.js';                                      // ✔
+export { default as isString } from './isString.js';                                        // ✔
+export { default as isNumber } from './isNumber.js';                                        // ✔
+export { default as isDate } from './isDate.js';                                            // ✔
+export { default as isRegExp } from './isRegExp.js';                                        // ✔
+export { default as isError } from './isError.js';                                          // ✔
+export { default as isSymbol } from './isSymbol.js';                                        // ✔
+export { default as isArrayBuffer } from './isArrayBuffer.js';                              // ✔
 export { default as isDataView } from './isDataView.js';
-export { default as isArray } from './isArray.js';
+export { default as isArray } from './isArray.js';                                          // ✔
 export { default as isFunction } from './isFunction.js';
 export { default as isArguments } from './isArguments.js';
 export { default as isFinite } from './isFinite.js';
 export { default as isNaN } from './isNaN.js';
 export { default as isTypedArray } from './isTypedArray.js';
-export { default as isEmpty } from './isEmpty.js';
-export { default as isMatch } from './isMatch.js';
+export { default as isEmpty } from './isEmpty.js';                                          // ✔
+export { default as isMatch } from './isMatch.js';                                          // ✔
 export { default as isEqual } from './isEqual.js';
 export { default as isMap } from './isMap.js';
 export { default as isWeakMap } from './isWeakMap.js';
