@@ -8,7 +8,7 @@
 
 // Baseline setup.
 export { VERSION } from './_setup.js';                                                      // ✔
-export { default as restArguments } from './restArguments.js';                              // -
+export { default as restArguments } from './restArguments.js';                              // ✔
 
 // Object Functions
 // ----------------
@@ -45,13 +45,13 @@ export { default as isSet } from './isSet.js';
 export { default as isWeakSet } from './isWeakSet.js';
 
 // Functions that treat an object as a dictionary of key-value pairs.
-export { default as keys } from './keys.js';
-export { default as allKeys } from './allKeys.js';
-export { default as values } from './values.js';
-export { default as pairs } from './pairs.js';
-export { default as invert } from './invert.js';
+export { default as keys } from './keys.js';                                                // ✔
+export { default as allKeys } from './allKeys.js';                                          // ✔
+export { default as values } from './values.js';                                            // ✔
+export { default as pairs } from './pairs.js';                                              // ✔ map
+export { default as invert } from './invert.js';                                            // ✔ key-value => value-key
 export { default as functions,
-         default as methods   } from './functions.js';
+         default as methods   } from './functions.js';                                      // ✔ 返回对象中函数名
 export { default as extend } from './extend.js';
 export { default as extendOwn,
          default as assign    } from './extendOwn.js';
